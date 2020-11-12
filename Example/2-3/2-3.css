@@ -1,10 +1,12 @@
 </*using number to set up different colour*/>
 body {
-	background-color: rgb(255,0,0);
+	background-color: RGB(205, 92, 92);
 }
+
 article {
 	 background-color: 189517;
 }
+
 section {
-	background-color: 
+	background-color: green;
 }

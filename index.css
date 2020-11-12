@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: rgb(211, 211, 211); 
+}
+
+header {
+	text-align: center;
+	font-size: 4vh;
+	color: purple;
+}
+
+nav {
+	text-align: center;
+	padding: 5vh 0;
+}
+
+nav div {
+	display: inline-block;
+	color: white;
+	margin: 2vh;
+	font-size: 3vh;
+	font-family: 'Source Code Pro', monospace;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 2.5vh;
+	font-family: serif;
+	line-height: 2;
+	padding: 0 1vw;
+}
+
+section {
+	background-color: 	rgb(250, 227, 217); 
+}
