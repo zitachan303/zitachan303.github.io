@@ -28,15 +28,15 @@ nav {
 	padding: 4px;
 }
 
-nav > div {
-	display: inline-block;
+nav > li {
+	display: inline;
 	color: white;
 	margin: 2vh;
 	font-size: 1.5vw;
 	font-family: 'Source Code Pro', monospace;
 }
 
-nav > div:hover {
+nav > li:hover {
 	background-color: #ffe2e2;
 	color: #f6f6f6;
 	border-bottom: 4px solid #8785a2;
@@ -61,7 +61,8 @@ section#Eng {
 	height: 600px;
 	margin-left: 30px;
 	background-color: #95e1d3;
-	color: #8785a2;
+	/*color: #8785a2;*/
+	color: black;
 }
 
 h2 {
@@ -75,5 +76,6 @@ section#Chi {
 	height: 600px;
 	margin-left: 620px;
 	background-color: #95e1d3;
-	color: #8785a2; 
+	/*color: #8785a2;*/
+	color: black; 
 }
