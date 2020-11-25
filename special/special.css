@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #fcefee; 
+}
+
+nav {
+	text-align: center;
+	background-color: #fc5c9c;
+	display: block;
+	padding: 10px 5px;
+}
+
+nav > li {
+	display: inline;
+}
+
+nav > li a{
+	color: white;
+	text-decoration: none;
+	margin: 2vh;
+	line-height: 20px;
+	font-size: 24px;
+	padding: 15px 10px;
+	font-family: American Typewriter, serif; /*'Source Code Pro', monospace;*/
+}
+
+nav > li:hover {
+	background-color: #fd94b4;
+	color: #f6f6f6;
+	padding: 10px 5px;
+	border-bottom: 4px solid #c5e3f6;
+}
