@@ -39,3 +39,19 @@ nav > li:hover {
 	padding: 10px 5px;
 	border-bottom: 4px solid #c5e3f6;
 }
+
+body {
+	height: 100%;
+	width: 100%;
+	line-height: 1.5;
+}
+
+p{
+	width: 700px;
+	height: 600px;
+	margin-left: 30px;
+	font-family: sans-serif;
+	color: black;
+	background-color: #f7e9e3;
+	margin-top: 20px;
+}
