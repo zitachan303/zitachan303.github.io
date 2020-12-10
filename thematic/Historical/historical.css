@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #f1e3cb;
+}
+
+section{
+	/*left: 50%;
+	top:50%;
+	translate:-50%,-50%;*/
+	align-items: center;
+	margin:10%;
+
+}
+
+img{
+	width: 300px;
+	height: 400px;
+	margin-left: 540px;
+}
+
+h1{
+	font-size: 30px;
+	font-style: bold;
+	background-color: #581c0c;
+	color: white;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+}
