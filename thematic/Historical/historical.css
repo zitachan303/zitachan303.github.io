@@ -62,10 +62,6 @@ nav {
 	height: 100%;
 }
 
-/* 
-	put the "front" and "back" elements into place with CSS transforms, 
-	specifically translation and translatez
-*/
 .front {
 	transform: rotatex(0deg) translatez(25px);
 }

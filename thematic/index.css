@@ -43,14 +43,13 @@ nav {
 	padding: 15px 10px;
 }
 
-/* animation domination */
+/* animation for the navigation */
 .three-d {
 	perspective: 200px;
 	transition: all .07s linear;
 	position: relative;
 	cursor: pointer;
 }
-	/* complete the animation! */
 	.three-d:hover .three-d-box, 
 	.three-d:focus .three-d-box {
 		transform: translateZ(-25px) rotateX(90deg);
@@ -69,10 +68,6 @@ nav {
 	height: 100%;
 }
 
-/* 
-	put the "front" and "back" elements into place with CSS transforms, 
-	specifically translation and translatez
-*/
 .front {
 	transform: rotatex(0deg) translatez(25px);
 }
@@ -98,7 +93,7 @@ nav {
 
 section {
 	height: 200px;
-	width: 500px;
+	width: 700px;
 	display: block;
 	margin: auto;
 	text-align: center;

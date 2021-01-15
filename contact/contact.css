@@ -54,10 +54,10 @@ img {
     height: 5%;
     display: block;
     margin: auto;
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); /*change the shape of the image*/
 }
 
-p { text-align: center;
+p { text-align: center; /*texts are placed at the center*/
 	color: white;
 	font-size: 20px;
 	font-family: 'Yusei Magic', sans-serif;

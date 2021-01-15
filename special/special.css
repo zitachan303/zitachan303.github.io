@@ -58,5 +58,5 @@ section {
 	background-color: #f7edf6;
 	margin-top: 20px;
 	line-height: 40px;
-	padding: 30px 30px;
+	padding: 30px 30px; /*control the internal distance*/
 }

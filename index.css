@@ -1,3 +1,4 @@
+/*back to the basic format*/
 *{
 	margin: 0;
 	padding: 0;
@@ -9,13 +10,13 @@ html {
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
-	background-color: #ff94a7; 
+	background-color: #ff94a7; /*background colour of the website*/
 
 }
 
 
 nav {
-	text-align: center;
+	text-align: center; /*put the text at center*/
 	display: block;
 	padding: 10px 5px;
 	background-color: white;
@@ -34,7 +35,7 @@ nav > li a{
 	padding: 15px 10px;
 	font-family: 'B612', sans-serif;
 }
-
+/*background colour is changed when the hover is clicked.*/
 nav > li:hover {
 	
 	color: white;
@@ -55,18 +56,18 @@ h1 {
 	top: 40vh;
 	color: white;
 	font-size: 30px;
-	font-family: 'Yusei Magic', sans-serif;
+	font-family: 'Yusei Magic', sans-serif; 
 }
 
 article > img {
-	max-height: 100%;  
-    max-width: 100%; 
+	max-height: 100%; /*maxium height of the imag*/ 
+    max-width: 100%; /*maxium width of the image*/
     width: auto;
     height: auto;
     position: absolute;   
-    left: 0;
-    margin: auto;
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    left: 0; /*image left*/
+    margin: auto; 
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); /*change the shape of the image*/
 
 }
 
