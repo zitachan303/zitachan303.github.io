@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&family=Playfair+Display:ital@1&display=swap');
+
+h1{
+	font-family: commissioner, sans-serif;
+}
+
+p{
+	font-family: Playfair Display, serif;
+}
