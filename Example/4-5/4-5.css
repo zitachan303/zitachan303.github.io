@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	width: 100vw;
+	height: 30px;
+	background-color: grey;
+	font-family: sans-serif;
+	padding: 0 10px;
+}
+
+nav > div {
+	display: inline-block;
+	margin: 0 5px;
+	height: 30px;
+	padding: 0 3px;
+	background-color: red;
+	color: white;
+	text-align: center;
+	vertical-align: text-top; /*垂直對齊*/
+	line-height: 30px;
+}
+
+nav > div:hover {
+	cursor: pointer;
+	background-color: white;
+	color: red;
+}
+
+nav > div > div {
+	display: none;
+	margin: 0 -3px;
+	border:1px solid red;
+	background-color: white;/*顏色同上*/
+	color: red;
+
+}

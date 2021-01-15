@@ -1,5 +1,5 @@
 *{
-	margin: 1;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
@@ -11,6 +11,7 @@ html{
 	overflow-y: auto;
 	background-color: #f1e3cb;
 }
+	
 
 header{
 	text-align: center;
@@ -19,24 +20,7 @@ header{
 	font-family: Stencil Std, fantasy;
 }
 
-/*menu{
-	display: block;
-	background: #000;
-}
-
-menu li{
-	display: inline-block;
-	color: #fff;
-	text-decoration: none;
-	font-family: 'Passion One', Arial, sans-serif;
-	font-smoothing: antialiased;
-	text-transform: uppercase;
-	overflow: visible;
-	line-height: 20px;
-	font-size: 24px;
-	padding: 15px 10px;
-}*/
-.block-menu {
+nav {
 	display: block;
 	background: #581c0c;
 	text-align: center;
@@ -55,7 +39,7 @@ menu li{
 	text-transform: uppercase;
 	overflow: visible;
 	line-height: 20px;
-	font-size: 24px;
+	font-size: 25px;
 	padding: 15px 10px;
 }
 
@@ -112,10 +96,14 @@ menu li{
 	box-sizing: border-box;
 }
 
-section{
-	width: 800px;
-	height: 500px;
-	margin-left: 250px;
+section {
+	height: 200px;
+	width: 500px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+	padding: 50px;
 	font-size: 20px;
 	font-family: sans-serif;
 	color: black;

@@ -9,22 +9,16 @@ html {
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
-	background-color: #fcefee; 
+	background-color: #ff94a7; 
+
 }
 
-header {
-	text-align: center;
-	font-size: 5vh;
-	padding: 4vh 0;
-	color: #6dc9c8;
-	font-family: Brush Script MT, Brush Script Std, cursive;
-}
 
 nav {
 	text-align: center;
-	background-color: #fc5c9c;
 	display: block;
 	padding: 10px 5px;
+	background-color: white;
 }
 
 nav > li {
@@ -32,20 +26,21 @@ nav > li {
 }
 
 nav > li a{
-	color: white;
+	color: black;
 	text-decoration: none;
 	margin: 2vh;
 	line-height: 20px;
 	font-size: 24px;
 	padding: 15px 10px;
-	font-family: American Typewriter, serif; /*'Source Code Pro', monospace;*/
+	font-family: 'B612', sans-serif;
 }
 
 nav > li:hover {
-	background-color: #fd94b4;
-	color: #f6f6f6;
+	
+	color: white;
 	padding: 10px 5px;
-	border-bottom: 4px solid #c5e3f6;
+	border-bottom: 4px solid #fa7c92;
+	background-color: #fffad6;
 }
 
 body {
@@ -55,22 +50,22 @@ body {
 }
 
 h1 {
-	text-align: center;
-	color: #6dc9c8;
+	position: relative;
+	left:  65vw;
+	top: 40vh;
+	color: white;
 	font-size: 30px;
-	font-family: 'Source Code Pro', monospace;
-}
-
-p {
-	text-align: center;
-	font-size: 20px;
+	font-family: 'Yusei Magic', sans-serif;
 }
 
 article > img {
-	margin-top: 50px;
-	margin-left: 515px;
-	max-width: 500px;  
-	height: 400px;  
-  	border-radius: 90%;
+	max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;   
+    left: 0;
+    margin: auto;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 

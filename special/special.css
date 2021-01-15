@@ -9,14 +9,14 @@ html {
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
-	background-color: #fcefee; 
+	background-color: #ff94a7;
 }
 
 nav {
 	text-align: center;
-	background-color: #fc5c9c;
 	display: block;
 	padding: 10px 5px;
+	background-color: white;
 }
 
 nav > li {
@@ -24,34 +24,39 @@ nav > li {
 }
 
 nav > li a{
-	color: white;
+	color: black;
 	text-decoration: none;
 	margin: 2vh;
 	line-height: 20px;
 	font-size: 24px;
 	padding: 15px 10px;
-	font-family: American Typewriter, serif; /*'Source Code Pro', monospace;*/
+	font-family: 'B612', sans-serif;
 }
 
 nav > li:hover {
-	background-color: #fd94b4;
-	color: #f6f6f6;
+	
+	color: white;
 	padding: 10px 5px;
-	border-bottom: 4px solid #c5e3f6;
+	border-bottom: 4px solid #fa7c92;
+	background-color: #f5f0f3;
 }
-
 body {
 	height: 100%;
 	width: 100%;
 	line-height: 1.5;
 }
 
-p{
-	width: 700px;
-	height: 600px;
-	margin-left: 30px;
-	font-family: sans-serif;
+h1 {
+	font-size: 40px;
+	color: #f5627d;
+}
+
+section {
+	margin: 20px;
+	font-family: 'Noto Sans', sans-serif;
 	color: black;
-	background-color: #f7e9e3;
+	background-color: #f7edf6;
 	margin-top: 20px;
+	line-height: 40px;
+	padding: 30px 30px;
 }
