@@ -16,6 +16,7 @@ html{
 header{
 	text-align: center;
 	font-size: 35px;
+	margin: 10px;
 	color: black;
 	font-family: Stencil Std, fantasy;
 }
